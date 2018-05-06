@@ -5,4 +5,4 @@ name of the course is "WordPress: Custom Post and Taxonomies" by Morten Rand-Hen
 
 On this project you will find:
 
-1. posttypes.php - a basic plugin used to create the custom post types. 
+1. <strong>posttypes.php</strong> - a basic plugin used to create the custom post types. 
