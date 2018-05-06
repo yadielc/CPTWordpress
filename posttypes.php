@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Yadiel's Custom Post Types and Taxonomies
- * Plugin URI: http://yadielcabrera.com
+ * Plugin URI: http://github.com/ysites
  * Description: A simple plugin that adds custom post types and taxonomies
  * Version: 0.1
  * Author: Yadiel Cabrera
