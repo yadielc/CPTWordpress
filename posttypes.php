@@ -77,3 +77,36 @@ function my_rewrite_flush() {
     flush_rewrite_rules();
 }
 register_activation_hook( __FILE__, 'my_rewrite_flush' );
+
+/* Custom Taxonomies */
+
+
+function my_custom_taxonomies () {
+  /* Type of product / service */
+  register_taxonomy (
+      'product_type',
+      'reviews',
+      array (
+          'label' => 'Type of Product/Service',
+          'rewrite' => array ('slug' => 'product-types'),
+          'hierarchical' => true,
+
+          )
+    );
+
+    /* Mood  */
+    register_taxonomy (
+        'mood',
+        'reviews',
+        array (
+            'label' => 'Moods',
+            'rewrite' => array ('slug' => 'product-types'),
+            'hierarchical' => false,
+
+            )
+      );
+
+
+}
+
+add_action ('init', 'my_custom_taxonomies');
